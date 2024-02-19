@@ -33,6 +33,6 @@ La validación cruzada es importante porque proporciona una estimación más só
 
 5) Explicar cómo funciona el área bajo la curva(AUC)
 
-El área bajo la curva(AUC) es una medida numérica del rendimiento de un modelo de clasificación que podemos obtener al graficar la Curva ROC.
+El área bajo la curva(AUC) es una medida numérica del rendimiento de un modelo de clasificación binaria que podemos obtener al graficar la Curva ROC.
 Varía entre 0 y 1, donde un valor de 1 indica un clasificador perfecto y un valor de 0.5 indica un rendimiento similar al azar. Cuanto mayor sea el AUC, mejor será el rendimiento del clasificador.
 
