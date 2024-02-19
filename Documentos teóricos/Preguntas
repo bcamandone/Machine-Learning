@@ -13,6 +13,7 @@ Alta varianza: cuando un modelo tiene una alta varianza, es demasiado complejo y
 Encontrar el equilibrio adecuado entre sesgo y varianza es crucial para crear modelos que funcionen bien tanto con datos de entrenamiento como de prueba.
 
 3) ¿Qué es el sobreajuste y cómo se puede prevenir?
+
 El sobreajuste, también conocido como overfitting en inglés, es un fenómeno donde un modelo se ajusta demasiado bien a los datos de entrenamiento, pero tiene un rendimiento deficiente cuando se enfrenta a datos nuevos, es decir,
 datos que no ha visto durante el entrenamiento.
 
@@ -24,13 +25,14 @@ Acciones para prevenir:
 - Selección de características(Feature selection): Seleccionar cuidadosamente las características más relevantes para el problema en cuestión
 y eliminar aquellas que puedan introducir ruido en el modelo puede ayudar a prevenir el sobreajuste.
 
-
 4) ¿Qué es la validación cruzada (Cross Validation)  y por qué es importante?
+
 La validación cruzada es una técnica utilizada para evaluar el desempeño de un modelo. Implica dividir los datos en múltiples subconjuntos, llamados "folds" o "pliegues", y luego utilizar estos subconjuntos de manera rotativa para entrenar y evaluar el modelo.
 La validación cruzada es importante porque proporciona una estimación más sólida del rendimiento de un modelo, lo que ayuda a detectar problemas como el sobreajuste. 
 
 
 5) Explicar cómo funciona una curva ROC.
+
 La curva ROC compara la Tasa de Verdaderos Positivos y la Tasa de Falsos Positivos, esta se usa para medir el rendimiento (o la efectividad, en su mas amplio sentido) del clasificador a través de distintos metodos, en este caso se emplea el AUC - ROC (área bajo la curva ROC).
 El ROC es una curva de probabilidad y el AUC representa el grado de separabilidad, este indica en que medida el modelo es capaz de distinguir entre clases. 
 Cuanto más abraza la curva la esquina superior izquierda del gráfico, mejor lo hace el modelo para clasificar los datos en categorías. 
