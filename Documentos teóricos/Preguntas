@@ -1,3 +1,4 @@
+
 1) ¿Cuál es la diferencia entre aprendizaje supervisado y no supervisado en machine learning?
 
 El aprendizaje supervisado necesita para el entrenamiento de datos etiquetados. Ejemplo, para realizar una clasificación primero se deben etiquetar los datos a utilizar.
