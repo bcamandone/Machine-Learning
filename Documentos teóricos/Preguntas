@@ -31,9 +31,8 @@ La validación cruzada es una técnica utilizada para evaluar el desempeño de u
 La validación cruzada es importante porque proporciona una estimación más sólida del rendimiento de un modelo, lo que ayuda a detectar problemas como el sobreajuste. 
 
 
-5) Explicar cómo funciona una curva ROC.
+5) Explicar cómo funciona el área bajo la curva(AUC)
 
-La curva ROC compara la Tasa de Verdaderos Positivos y la Tasa de Falsos Positivos, esta se usa para medir el rendimiento (o la efectividad, en su mas amplio sentido) del clasificador a través de distintos metodos, en este caso se emplea el AUC - ROC (área bajo la curva ROC).
-El ROC es una curva de probabilidad y el AUC representa el grado de separabilidad, este indica en que medida el modelo es capaz de distinguir entre clases. 
-Cuanto más abraza la curva la esquina superior izquierda del gráfico, mejor lo hace el modelo para clasificar los datos en categorías. 
-Cuanto más cerca esté el AUC de 1, mejor será el modelo. Un modelo con un AUC igual a 0.5 no es mejor que un modelo que hace clasificaciones aleatorias. 
+El área bajo la curva(AUC) es una medida numérica del rendimiento de un modelo de clasificación que podemos obtener al graficar la Curva ROC.
+Varía entre 0 y 1, donde un valor de 1 indica un clasificador perfecto y un valor de 0.5 indica un rendimiento similar al azar. Cuanto mayor sea el AUC, mejor será el rendimiento del clasificador.
+
