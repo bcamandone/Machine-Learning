@@ -28,7 +28,7 @@ y eliminar aquellas que puedan introducir ruido en el modelo puede ayudar a prev
 4) ¿Qué es la validación cruzada (Cross Validation)  y por qué es importante?
 
 La validación cruzada es una técnica utilizada para evaluar el desempeño de un modelo. Implica dividir los datos en múltiples subconjuntos, llamados "folds" o "pliegues", y luego utilizar estos subconjuntos de manera rotativa para entrenar y evaluar el modelo.
-La validación cruzada es importante porque proporciona una estimación más sólida del rendimiento de un modelo, lo que ayuda a detectar problemas como el sobreajuste. 
+Esta técnica es importante porque proporciona una estimación más sólida del rendimiento de un modelo, lo que ayuda a detectar problemas como el sobreajuste. 
 
 
 5) Explicar cómo funciona el área bajo la curva(AUC)
