@@ -3,6 +3,8 @@
 
 ## Qué vas a encontrar en esta carpeta? 
 
+- Resumen ML 
+
 - Evaluación del modelo de ML
 
 - Métricas de Evaluación para modelos de clasificacion 
